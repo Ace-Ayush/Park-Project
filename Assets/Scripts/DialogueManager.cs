@@ -27,6 +27,8 @@ public class DialogueManager : MonoBehaviour
     void Start()
     {
         dialogueUI.SetActive(false);
+        Cursor.visible = false;
+
     }
 
    private void FixedUpdate() {
@@ -89,7 +91,8 @@ public class DialogueManager : MonoBehaviour
     }
 
     void StartConversation()
-    {
+    {   Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
         isTalking = true;
         curResponseTracker = 0;
         dialogueUI.SetActive(true);
@@ -98,7 +101,8 @@ public class DialogueManager : MonoBehaviour
     }
 
     void EndDialogue()
-    {
+    {   Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
         isTalking = false;
         dialogueUI.SetActive(false);
     }

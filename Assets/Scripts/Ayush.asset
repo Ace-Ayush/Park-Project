@@ -15,6 +15,7 @@ MonoBehaviour:
   name: Ayush
   dialogue:
   - HI!! Appy.
+  - How are you doing?
   playerDialogue:
   - Hello Ayush. Long Time no see.
   - Do  I know you?
