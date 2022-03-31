@@ -31,10 +31,10 @@ public class DialogueManager : MonoBehaviour
 
     }
 
-   private void FixedUpdate() {
+   private void Update() {
        
         distance = Vector3.Distance(player.transform.position, this.transform.position);
-        if(distance <= 2.5f)
+        if(distance <= 5f)
         {
             if(Input.GetAxis("Mouse ScrollWheel") < 0f)
             {

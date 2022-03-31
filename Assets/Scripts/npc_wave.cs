@@ -6,11 +6,12 @@ public class npc_wave : MonoBehaviour
 {
     // Start is called before the first frame update
      Animator anim;
-    bool iswaving=false;
+    bool iswaving;
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        iswaving=true;
     }
 
     // Update is called once per frame

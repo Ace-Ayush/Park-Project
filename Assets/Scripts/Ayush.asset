@@ -16,9 +16,13 @@ MonoBehaviour:
   dialogue:
   - HI!! Appy.
   - How are you doing?
+  - Hi!!
   playerDialogue:
   - Hello Ayush. Long Time no see.
   - Do  I know you?
+  - 'Yo.
+
+'
   - 'Yo.
 
 '
