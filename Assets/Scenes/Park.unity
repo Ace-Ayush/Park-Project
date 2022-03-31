@@ -1376,6 +1376,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Ayush
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: c584a87a50618de4993656f4d331cbf5, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 2e6ff74c2935d95ddb48be57acdccfa4, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c584a87a50618de4993656f4d331cbf5, type: 3}
 --- !u!4 &1696795453 stripped
@@ -1796,6 +1800,18 @@ CapsuleCollider:
   m_Height: 5.1600003
   m_Direction: 1
   m_Center: {x: -2.9283803, y: -3.2973e-10, z: -0.57451266}
+--- !u!114 &2144912740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144912735}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8f02436d2aa86129b1d062157e3cbc7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &573819643159852914
 MeshRenderer:
   m_ObjectHideFlags: 0
