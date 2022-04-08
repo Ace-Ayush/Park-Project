@@ -34,7 +34,11 @@ public class DialogueManager : MonoBehaviour
    private void Update() {
        
         distance = Vector3.Distance(player.transform.position, this.transform.position);
+<<<<<<< Updated upstream
         if(distance <= 5f)
+=======
+        if(distance <= 20f)
+>>>>>>> Stashed changes
         {
             if(Input.GetAxis("Mouse ScrollWheel") < 0f)
             {
